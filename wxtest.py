@@ -1,4 +1,4 @@
-import wx
+import wx,os,sys
 class myfream(wx.Frame):
     def __init__(self,parent,title,size):
         super(myfream,self).__init__(parent,title=title,size=size)
